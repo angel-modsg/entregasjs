@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
 }
 .nav-container {
     position: sticky;
@@ -78,7 +79,7 @@ body {
     outline: 0;
     padding: 12px;
     color: white;
-    background-color: coral;
+    background-color: #da391a;
     text-align: center;
     cursor: pointer;
     width: 100%;
@@ -112,17 +113,22 @@ body {
 .modal-header {
     display: flex;
     justify-content: space-around;
-    background-color: coral;
-    color: #fff;
+    background-color: cyan;
+    color: black;
     width: 100%;
 }
 
 .modal-header-title {
     justify-self: start;
+    
 }
+
 .modal-header-button {
     cursor: pointer;
 }
+
+
+
 .modal-container > .modal-content {
     display: flex;
     flex-direction: row;
@@ -160,4 +166,10 @@ body {
 }
 .restar {
     cursor: pointer;
+}
+
+.total-content-button {
+    cursor: pointer;
+    font-style: italic;
+    color: red;
 }

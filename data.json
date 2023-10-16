@@ -1,0 +1,9 @@
+[
+    { "id": 1, "nombre": "Vacio", "precio": 3500, "img":"./img/img-vacio.png", "cantidad":1},
+    { "id": 2, "nombre": "Tira", "precio": 3600, "img": "./img/img-costilla.png", "cantidad":1},
+    { "id": 3, "nombre": "Chorizo", "precio": 2800, "img": "./img/img-chori.png", "cantidad":1 },
+    { "id": 4, "nombre": "Matambre", "precio": 3000, "img": "./img/img-matambre.png", "cantidad":1 },
+    { "id": 5, "nombre": "Molleja", "precio": 4000, "img": "./img/img-molleja.png", "cantidad":1 },
+    { "id": 6, "nombre": "Chinchulines", "precio": 2200, "img": "./img/img-chinchu.png", "cantidad":1 },
+    { "id": 7, "nombre": "Morcilla", "precio": 2000, "img": "./img/img-morcilla.png", "cantidad":1 }
+]
