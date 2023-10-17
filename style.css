@@ -3,6 +3,9 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 .nav-container {
+    display: flex;
+    justify-content: space-between;
+
     position: sticky;
     z-index: 3;
     top: 0;
@@ -14,6 +17,7 @@ body {
     background-color: #1b1b1b;
 }
 .nabvar-logo {
+    display: flex;
     justify-self: start;
     margin-left: 20px;
     color: azure;
@@ -21,7 +25,7 @@ body {
     cursor: pointer;
 }
 .ver-carrito {
-    font-size: 25px;
+    position: relative;    
     margin-right: 20px;
     margin-top: 3.5vh;
     cursor: pointer;
